@@ -330,7 +330,7 @@ return {
         })
     },
 
-["Sorry4Delay!"] = {
+["NewYear26!"] = {
         Rewards = {
                 Rerolls = 50,
                 StatRerolls = 30,
@@ -341,6 +341,21 @@ return {
             year = 2026,
             month = 1,
             day = 10,
+            min = 0,
+            hour = 12,
+            sec = 0,
+        })
+    },
+
+["InterestedIn0.5!"] = {
+        Rewards = {
+                Rerolls = 25,
+        },
+        LevelRequirement = 10,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 5,
             min = 0,
             hour = 12,
             sec = 0,
