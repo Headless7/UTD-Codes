@@ -351,7 +351,7 @@ return {
         Rewards = {
                 Rerolls = 25,
         },
-        LevelRequirement =1510,
+        LevelRequirement = 15,
         Expiration = os.time({
             year = 2026,
             month = 1,
