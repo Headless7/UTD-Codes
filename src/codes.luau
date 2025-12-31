@@ -258,4 +258,19 @@ return {
             sec = 0,
         })
     },
+
+["MaintenanceTomorrow_0.5!"] = {
+        Rewards = {
+                Rerolls = 50,
+        },
+        LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 1,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 }
