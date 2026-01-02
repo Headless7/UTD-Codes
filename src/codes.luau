@@ -361,4 +361,20 @@ return {
             sec = 0,
         })
     },
+
+["ILoveUTD!"] = {
+        Rewards = {
+                Rerolls = 50,
+				Gems = 2000,
+        },
+        LevelRequirement = 25,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 5,
+            min = 0,
+            hour = 12,
+            sec = 0,
+        })
+    },
 }
