@@ -102,16 +102,17 @@ return {
             sec = 0,
         })
     },
-["test"] = {
+["WinterIsComing!"] = {
         Rewards = {
-                SpiritSouls = 5,
-				Gems = 2,
+                SpiritSouls = 350,
+				Gems = 3000,
+				Rerolls = 15,
         },
-        LevelRequirement = 0,
+        LevelRequirement = 20,
         Expiration = os.time({
             year = 2026,
             month = 1,
-            day = 5,
+            day = 8,
             min = 0,
             hour = 12,
             sec = 0,
