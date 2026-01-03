@@ -104,7 +104,7 @@ return {
     },
 ["WinterIsComing!"] = {
         Rewards = {
-                SpiritSouls = 350,
+                SpiritSouls = 250,
 				Gems = 3000,
 				Rerolls = 15,
         },
