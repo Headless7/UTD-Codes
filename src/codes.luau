@@ -1,4 +1,21 @@
 return {
+["WinterPolls"] = {
+        Rewards = {
+				Rerolls = 50,
+				Locks = 20,
+				StatRerolls = 50.
+        },
+        LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 11,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["SmallGift"] = {
         Rewards = {
                 Rerolls = 10,
