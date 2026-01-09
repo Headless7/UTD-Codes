@@ -15,7 +15,20 @@ return {
             sec = 0,
         })
     },
-
+["ILoveWinter!"] = {
+        Rewards = {
+				Rerolls = 100,
+        },
+        LevelRequirement = 25,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 15,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["SmallGift"] = {
         Rewards = {
                 Rerolls = 10,
