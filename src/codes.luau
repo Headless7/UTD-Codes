@@ -1,4 +1,18 @@
 return {
+["CC_Jan26test"] = {
+        Rewards = {
+				Rerolls = 1,
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 2,
+            day = 1,
+            min = 0,
+            hour = 12,
+            sec = 0,
+        })
+    },
 ["WinterPolls"] = {
         Rewards = {
 				Rerolls = 50,
