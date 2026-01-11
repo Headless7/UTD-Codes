@@ -1,4 +1,19 @@
 return {
+["FirstPatchOf26"] = {
+        Rewards = {
+				Rerolls = 25,
+				IceGifts = 5000,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 13,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["WinterTIME!"] = {
         Rewards = {
 				Rerolls = 25,
