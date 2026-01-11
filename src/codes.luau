@@ -48,9 +48,9 @@ return {
             sec = 0,
         })
     },
-["CC_Jan26test"] = {
+["CC_Jan26"] = {
         Rewards = {
-				Rerolls = 1,
+				Rerolls = 200,
         },
         CC_Code = true,
         Expiration = os.time({
