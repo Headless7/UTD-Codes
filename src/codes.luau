@@ -1,5 +1,5 @@
 return {
-["FirstPatchOf26"] = {
+["WinterPatch26"] = {
         Rewards = {
 				Rerolls = 20,
 				IceGifts = 5000,
