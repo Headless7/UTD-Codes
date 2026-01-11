@@ -1,14 +1,44 @@
 return {
 ["WinterTIME!"] = {
         Rewards = {
-				Rerolls = 50,
-				Locks = 20,
-				StatRerolls = 50.
+				Rerolls = 25,
+				IceGifts = 5000,
+				Gold = 1500.
         },
 		MusicPresets = {
 			["Winter"] = 1,
 		},
 		LevelRequirement = 25,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 24,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+["WinterUpd"] = {
+        Rewards = {
+				Rerolls = 25,
+				IceGifts = 5000,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 24,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+["AUniversalWinter!"] = {
+        Rewards = {
+				StatRerolls = 30,
+				Locks = 15,
+				IceGifts = 2500,
+        },
         Expiration = os.time({
             year = 2026,
             month = 1,
