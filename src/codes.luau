@@ -1,7 +1,7 @@
 return {
 ["FirstPatchOf26"] = {
         Rewards = {
-				Rerolls = 25,
+				Rerolls = 20,
 				IceGifts = 5000,
         },
 		LevelRequirement = 15,
