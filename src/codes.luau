@@ -1,4 +1,23 @@
 return {
+["WinterTIME!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Locks = 20,
+				StatRerolls = 50.
+        },
+		MusicPresets = {
+			["Winter"] = 1,
+		},
+		LevelRequirement = 25,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 24,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["CC_Jan26test"] = {
         Rewards = {
 				Rerolls = 1,
