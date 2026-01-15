@@ -1,4 +1,22 @@
 return {
+["ThankYouForOneMonth!"] = {
+        Rewards = {
+				Rerolls = 50,
+				IceGifts = 15000,
+				StatRerolls = 25,
+				Locks = 10,
+				Gems = 7500,
+        },
+		LevelRequirement = 25,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 16,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["WhiteRoseOps"] = {
         Rewards = {
 				Rerolls = 50,
