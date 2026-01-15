@@ -1,4 +1,67 @@
 return {
+["WhiteRoseOps"] = {
+        Rewards = {
+				Rerolls = 50,
+				StatRerolls = 25,
+				Locks = 10,
+        },
+		LevelRequirement = 25,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 22,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
+["Engage!"] = {
+        Rewards = {
+				IceGifts = 30000,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 23,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
+["StepUp!"] = {
+        Rewards = {
+				Gems = 10000,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 22,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
+["SorryForTheDelayGuys!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Gems = 5000,
+        },
+		LevelRequirement = 5,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 19,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["WinterPatch26"] = {
         Rewards = {
 				Rerolls = 20,
