@@ -1,7 +1,7 @@
 return {
 ["Update1Reveal!"] = {
         Rewards = {
-				Gems = 20000,
+				Gems = 10000,
 				Rerolls = 50,
         },
 		LevelRequirement = 30,
