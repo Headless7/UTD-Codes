@@ -1,4 +1,33 @@
 return {
+["Update1Reveal!"] = {
+        Rewards = {
+				Gems = 20000,
+				Rerolls = 50,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 25,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+["PollsUpdate1!"] = {
+        Rewards = {
+				Rerolls = 50,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 1,
+            day = 25,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["ThankYouForOneMonth!"] = {
         Rewards = {
 				Rerolls = 50,
