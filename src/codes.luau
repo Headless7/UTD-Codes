@@ -4,7 +4,7 @@ return {
 				Gems = 10000,
 				Rerolls = 50,
         },
-		LevelRequirement = 30,
+		LevelRequirement = 20,
         Expiration = os.time({
             year = 2026,
             month = 1,
@@ -18,7 +18,7 @@ return {
         Rewards = {
 				Rerolls = 50,
         },
-		LevelRequirement = 20,
+		LevelRequirement = 10,
         Expiration = os.time({
             year = 2026,
             month = 1,
