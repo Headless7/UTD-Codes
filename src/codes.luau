@@ -1,5 +1,18 @@
 return {
-
+["CC_Feb26"] = {
+        Rewards = {
+				Rerolls = 200,
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 1,
+            min = 0,
+            hour = 12,
+            sec = 0,
+        })
+    },
 ["Perfectionist"] = {
         Rewards = {
 				Rerolls = 100,
