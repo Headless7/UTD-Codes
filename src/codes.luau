@@ -1,4 +1,68 @@
 return {
+
+["Perfectionist"] = {
+        Rewards = {
+				Rerolls = 100,
+				Gems = 10_000,
+				Gold = 25_000,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 2,
+            day = 7,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
+["AndroidGames!"] = {
+        Rewards = {
+				Rerolls = 25,
+				StatRerolls = 50,
+				Locks = 25,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 2,
+            day = 12,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
+["I Have A Wish!"] = {
+        Rewards = {
+				Gems = 2_500,
+				StatRerolls = 50,
+				Locks = 25,
+        },
+		Items = {
+			SecretEtherealizationShard = 1,
+			MythicEtherealizationShard = 1,
+			ExclusiveEtherealizationShard = 1,
+			BurningFragment = 2,
+			FrozenFragment = 2,
+			HolyFragment = 2,
+			OceanFragment = 2,
+			PetalFragment = 2,
+			PhantomFragment = 2,
+			SkyFragment = 2,
+		},
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 2,
+            day = 7,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["Update1Reveal!"] = {
         Rewards = {
 				Gems = 10000,
