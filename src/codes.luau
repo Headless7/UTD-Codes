@@ -13,6 +13,25 @@ return {
             sec = 0,
         })
     },
+["NotPerfect!"] = {
+        Rewards = {
+				Rerolls = 25,
+				Items = {
+					SecretEtherealizationShard = 1,
+					MythicEtherealizationShard = 1,
+					ExclusiveEtherealizationShard = 1,
+				},
+        },
+		LevelRequirement = 5,
+        Expiration = os.time({
+            year = 2026,
+            month = 2,
+            day = 5,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["Perfectionist"] = {
         Rewards = {
 				Rerolls = 100,
