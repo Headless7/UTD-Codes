@@ -39,19 +39,21 @@ return {
 				Gems = 2_500,
 				StatRerolls = 50,
 				Locks = 25,
+
+				Items = {
+					SecretEtherealizationShard = 1,
+					MythicEtherealizationShard = 1,
+					ExclusiveEtherealizationShard = 1,
+					BurningFragment = 2,
+					FrozenFragment = 2,
+					HolyFragment = 2,
+					OceanFragment = 2,
+					PetalFragment = 2,
+					PhantomFragment = 2,
+					SkyFragment = 2,
+				},
         },
-		Items = {
-			SecretEtherealizationShard = 1,
-			MythicEtherealizationShard = 1,
-			ExclusiveEtherealizationShard = 1,
-			BurningFragment = 2,
-			FrozenFragment = 2,
-			HolyFragment = 2,
-			OceanFragment = 2,
-			PetalFragment = 2,
-			PhantomFragment = 2,
-			SkyFragment = 2,
-		},
+		
 		LevelRequirement = 20,
         Expiration = os.time({
             year = 2026,
