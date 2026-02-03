@@ -1,4 +1,24 @@
 return {
+["DevelopmentNews!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Gems = 10_000,
+				Items = {
+					SecretEtherealizationShard = 1,
+					MythicEtherealizationShard = 1,
+					ExclusiveEtherealizationShard = 1,
+				},
+        },
+		LevelRequirement = 10,
+        Expiration = os.time({
+            year = 2026,
+            month = 2,
+            day = 7,
+            min = 0,
+            hour = 12,
+            sec = 0,
+        })
+    },
 ["CC_Feb26"] = {
         Rewards = {
 				Rerolls = 200,
