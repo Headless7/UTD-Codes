@@ -1,4 +1,22 @@
 return {
+
+["SubscribeToUniversalTowerDefense!"] = {
+        Rewards = {
+				Gems = 5_000,
+				Rerolls = 50,
+				StatRerolls = 25,
+        },
+		LevelRequirement = 10,
+        Expiration = os.time({
+            year = 2026,
+            month = 2,
+            day = 15,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["DevelopmentNews!"] = {
         Rewards = {
 				Rerolls = 50,
