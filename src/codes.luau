@@ -1,5 +1,18 @@
 return {
-
+["BetterRates!"] = {
+        Rewards = {
+				Gems = 5_000,
+        },
+		LevelRequirement = 5,
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 23,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["Ragnarok!"] = {
         Rewards = {
 				Gems = 5_000,
