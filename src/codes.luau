@@ -51,6 +51,24 @@ return {
         })
     },
 
+["FirstRagnarok!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Items = {
+					SecretEtherealizationShard = 1,
+				},
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 28,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["Update1.5!"] = {
         Rewards = {
 				Gold = 30_000,
@@ -84,6 +102,27 @@ return {
             day = 24,
             min = 0,
             hour = 16,
+            sec = 0,
+        })
+    },
+["RagnarokisHere!"] = {
+        Rewards = {
+				Rerolls = 50,
+				StatRerolls = 25,
+				Locks = 15,	
+				Gold = 100_000,
+				Gems = 20_000,
+				Items = {
+					SecretEtherealizationShard = 1,
+				},
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 26,
+            min = 0,
+            hour = 12,
             sec = 0,
         })
     },
