@@ -37,6 +37,19 @@ return {
         })
     },
 
+["SorryForDelays1.5!"] = {
+        Rewards = {
+				Rerolls = 100,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 21,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 
 ["Update1.5!"] = {
         Rewards = {
