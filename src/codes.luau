@@ -1,5 +1,79 @@
 return {
 
+["Ragnarok!"] = {
+        Rewards = {
+				Gems = 5_000,
+				Gold = 20_000,
+				Rerolls = 10,
+				StatRerolls = 20,
+        },
+		
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 28,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
+["SorryForReallyLongDelay!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Items = {
+					SecretEtherealizationShard = 1,
+					ExclusiveEtherealizationShard = 1,
+				},
+        },
+		LevelRequirement = 10,
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 24,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
+
+["Update1.5!"] = {
+        Rewards = {
+				Gold = 30_000,
+				Rerolls = 30,
+				Locks = 15,
+				Items = {
+					MythicEtherealizationShard = 1,
+				},
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 28,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+["QOLUpdate1.5!"] = {
+        Rewards = {
+				Gold = 50_000,
+				Rerolls = 50,
+				Locks = 5,
+				StatRerolls = 20,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 3,
+            day = 24,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["SubscribeToUniversalTowerDefense!"] = {
         Rewards = {
 				Gems = 5_000,
