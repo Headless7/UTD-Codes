@@ -1,4 +1,45 @@
 return {
+["ContentCreatorsCode2.0!"] = {
+        Rewards = {
+				Gold = 100_000,
+				Rerolls = 50,
+				RelicRerolls = 20,
+				StatRerolls = 25,
+				Locks = 15,
+				Items = {
+					SecretEtherealizationShard = 1,
+				},
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 26,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+["NinjaMaintenance"] = {
+        Rewards = {
+				Gold = 10_000,
+				Gems = 1000,
+				Rerolls = 15,
+				StatRerolls = 15,
+				Units = {
+					Apollo = 1,
+				},
+				
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 13,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["Update2.0!"] = {
         Rewards = {
 				Gold = 50_000,
