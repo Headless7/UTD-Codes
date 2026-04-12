@@ -22,10 +22,10 @@ return {
     },
 ["NinjaMaintenance"] = {
         Rewards = {
-				Gold = 10_000,
-				Gems = 1000,
-				Rerolls = 15,
-				StatRerolls = 15,
+				Gems = 5000,
+				Rerolls = 50,
+				StatRerolls = 25,
+				RelicRerolls = 25,
 				Units = {
 					Apollo = 1,
 				},
