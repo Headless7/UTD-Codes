@@ -1,4 +1,55 @@
 return {
+["Update2.0!"] = {
+        Rewards = {
+				Gold = 50_000,
+				Rerolls = 20,
+				RelicRerolls = 10,
+				StatRerolls = 30,
+				Locks = 15,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 20,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+["TheLastGreatMage!"] = {
+        Rewards = {
+				Gold = 50_000,
+				Gems = 5000,
+				Rerolls = 30,
+				RelicRerolls = 10,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 20,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+["TheShinobiWar!"] = {
+        Rewards = {
+				Gold = 100_000,
+				Gems = 5000,
+				Rerolls = 50,
+				RelicRerolls = 20,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 20,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["BetterRates!"] = {
         Rewards = {
 				Gems = 5_000,
