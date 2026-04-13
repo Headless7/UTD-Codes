@@ -57,6 +57,31 @@ return {
             sec = 0,
         })
     },
+["WeLoveFern!"] = {
+        Rewards = {
+				Rerolls = 50,
+				StatRerolls = 25,
+				Units = {
+					Fern = 1,
+				},
+				Items = {
+					MageStaff = 1,
+					UniversalFragment = 2,
+					PhantomFragment = 4,
+					PetalFragment = 6,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 20,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
+
 ["TheLastGreatMage!"] = {
         Rewards = {
 				Gold = 50_000,
