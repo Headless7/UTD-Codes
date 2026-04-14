@@ -2,7 +2,7 @@ return {
 ["WeLoveDragonSlayer!"] = {
         Rewards = {
 				Gems = 10000,
-				Rerolls = 50,
+				Rerolls = 25,
 				Units = {
 					Stark = 1,
 				},
