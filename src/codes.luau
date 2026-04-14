@@ -1,4 +1,22 @@
 return {
+["WeLoveDragonSlayer!"] = {
+        Rewards = {
+				Gems = 10000,
+				Rerolls = 50,
+				Units = {
+					Stark = 1,
+				},
+				
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 21,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["ContentCreatorsCode2.0!"] = {
         Rewards = {
 				Gold = 100_000,
