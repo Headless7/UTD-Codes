@@ -40,6 +40,24 @@ return {
             sec = 0,
         })
     },
+
+["2.0Patch!"] = {
+        Rewards = {
+				Gems = 5000,
+				Rerolls = 25,
+				RelicRerolls = 10,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 20,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["Update2.0!"] = {
         Rewards = {
 				Gold = 50_000,
