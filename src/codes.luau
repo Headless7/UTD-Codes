@@ -1,4 +1,19 @@
 return {
+["ThankYouForUTDX!"] = {
+        Rewards = {
+				Rerolls = 50,		
+RelicRerolls = 50,
+Gems = 10000,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 16,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["WeLoveRerolls!"] = {
         Rewards = {
 				Rerolls = 100,		
