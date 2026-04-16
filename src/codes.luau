@@ -1,9 +1,23 @@
 return {
+["TheAntIsland!"] = {
+        Rewards = {
+				Rerolls = 15,		
+				Gems = 2500,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 20,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["ThankYouForUTDX!"] = {
         Rewards = {
 				Rerolls = 50,		
-RelicRerolls = 50,
-Gems = 10000,
+				RelicRerolls = 50,
+				Gems = 10000,
         },
         Expiration = os.time({
             year = 2026,
