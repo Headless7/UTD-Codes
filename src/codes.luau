@@ -1,4 +1,19 @@
 return {
+["MiniUpdate2.25Sunday!"] = {
+        Rewards = {
+				Rerolls = 50,		
+				RelicRerolls = 20,
+				Gems = 5000,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 20,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["TheAntIsland!"] = {
         Rewards = {
 				Rerolls = 15,		
