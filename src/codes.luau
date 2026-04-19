@@ -1,4 +1,39 @@
 return {
+["Update2.25!"] = {
+        Rewards = {
+				Rerolls = 30,		
+				RelicRerolls = 25,
+				Gems = 5000,
+				Gold = 30_000,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 26,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+["TheShadowMonarchIsArrivingSoon!"] = {
+        Rewards = {
+				Rerolls = 20,		
+				RelicRerolls = 5,
+				StatRerolls = 20,
+				Locks = 10,
+				Gems = 2000,
+				Gold = 20_000,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 26,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["MiniUpdate2.25Sunday!"] = {
         Rewards = {
 				Rerolls = 50,		
