@@ -1,4 +1,23 @@
 return {
+["CC_AntKing!"] = {
+        Rewards = {
+				Gold = 115_000,
+				Rerolls = 65,
+				RelicRerolls = 15,
+				StatRerolls = 15,
+				Locks = 25,
+				YenCrates = 5,
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["ThankYouBeruMuch!"] = {
         Rewards = {
 				Rerolls = 25,		
