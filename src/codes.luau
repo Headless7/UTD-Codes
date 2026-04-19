@@ -1,4 +1,18 @@
 return {
+["CoinsForEveryone"] = {
+        Rewards = {
+				Coins = 150_000,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 25,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["CC_AntKing!"] = {
         Rewards = {
 				Coins = 115_000,
