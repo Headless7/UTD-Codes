@@ -1,7 +1,8 @@
 return {
 ["CoinsForEveryone"] = {
         Rewards = {
-				Coins = 150_000,
+				Coins = 100_000,
+				Gems = 5000,
         },
         Expiration = os.time({
             year = 2026,
