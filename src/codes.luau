@@ -1,7 +1,7 @@
 return {
 ["CC_AntKing!"] = {
         Rewards = {
-				Gold = 115_000,
+				Coins = 115_000,
 				Rerolls = 65,
 				RelicRerolls = 15,
 				StatRerolls = 15,
@@ -39,7 +39,7 @@ return {
 				Rerolls = 30,		
 				RelicRerolls = 25,
 				Gems = 5000,
-				Gold = 30_000,
+				Coins = 30_000,
         },
         Expiration = os.time({
             year = 2026,
@@ -57,7 +57,7 @@ return {
 				StatRerolls = 20,
 				Locks = 10,
 				Gems = 2000,
-				Gold = 20_000,
+				Coins = 20_000,
         },
 		LevelRequirement = 15,
         Expiration = os.time({
@@ -205,7 +205,7 @@ return {
 
 ["Update2.0!"] = {
         Rewards = {
-				Gold = 50_000,
+				Coins = 50_000,
 				Rerolls = 20,
 				RelicRerolls = 10,
 				StatRerolls = 30,
@@ -247,7 +247,7 @@ return {
 
 ["TheLastGreatMage!"] = {
         Rewards = {
-				Gold = 50_000,
+				Coins = 50_000,
 				Gems = 5000,
 				Rerolls = 30,
 				RelicRerolls = 10,
@@ -264,7 +264,7 @@ return {
     },
 ["TheShinobiWar!"] = {
         Rewards = {
-				Gold = 100_000,
+				Coins = 100_000,
 				Gems = 5000,
 				Rerolls = 50,
 				RelicRerolls = 20,
@@ -296,7 +296,7 @@ return {
 ["Ragnarok!"] = {
         Rewards = {
 				Gems = 5_000,
-				Gold = 20_000,
+				Coins = 20_000,
 				Rerolls = 10,
 				StatRerolls = 20,
         },
