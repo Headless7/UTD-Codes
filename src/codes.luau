@@ -260,6 +260,30 @@ return {
         })
     },
 
+["WeLoveBerserker!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Units = {
+					Kenpachi = 1,
+				},
+				Items = {
+					HolyFragment = 5,
+					UniversalFragment = 2,
+					PhantomFragment = 2,
+					SealedEyepatch = 1,
+				},
+        },
+		LevelRequirement = 10,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 27,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
+
 ["TheLastGreatMage!"] = {
         Rewards = {
 				Coins = 50_000,
