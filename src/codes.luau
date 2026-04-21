@@ -69,8 +69,8 @@ return {
 ["2.25Patch!"] = {
         Rewards = {
 				Gems = 5000,
-				Rerolls = 25,
-				RelicRerolls = 10,
+				Rerolls = 40,
+				RelicRerolls = 25,
         },
 		LevelRequirement = 0,
         Expiration = os.time({
