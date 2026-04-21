@@ -276,7 +276,23 @@ return {
             sec = 0,
         })
     },
-
+["WeLoveUlquiorra!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Units = {
+					Ulquiorra:shiny:evolved = 1,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 28,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
 ["WeLoveBerserker!"] = {
         Rewards = {
 				Rerolls = 50,
