@@ -308,7 +308,7 @@ return {
         },
 		LevelRequirement = 10,
         Expiration = os.time({
-            year = 2026,
+            year = 2030,
             month = 4,
             day = 27,
             min = 0,
