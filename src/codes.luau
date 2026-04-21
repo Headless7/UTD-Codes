@@ -65,6 +65,23 @@ return {
             sec = 0,
         })
     },
+
+["2.25Patch!"] = {
+        Rewards = {
+				Gems = 5000,
+				Rerolls = 25,
+				RelicRerolls = 10,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 28,
+            min = 0,
+            hour = 5,
+            sec = 0,
+        })
+    },
 ["TheShadowMonarchIsArrivingSoon!"] = {
         Rewards = {
 				Rerolls = 20,		
