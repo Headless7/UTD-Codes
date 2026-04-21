@@ -280,7 +280,7 @@ return {
         Rewards = {
 				Rerolls = 50,
 				Units = {
-					Ulquiorra:shiny:evolved = 1,
+					["Ulquiorra:shiny:evolved"] = 1,
 				},
         },
 		LevelRequirement = 0,
