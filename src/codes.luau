@@ -1,4 +1,22 @@
 return {
+["SailorBoost!"] = {
+        Rewards = {
+				Rerolls = 30,
+				Items = {
+					UnrivaledFragment1 = 1,
+					UnrivaledFragment2 = 1,
+				},
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 27,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["CoinsForEveryone!"] = {
         Rewards = {
 				Coins = 100_000,
