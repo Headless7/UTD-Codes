@@ -1,4 +1,17 @@
 return {
+["1KFollowersUTDXTiktok!"] = {
+        Rewards = {
+				Rerolls = 100,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 27,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["SailorBoost!"] = {
         Rewards = {
 				Rerolls = 30,
