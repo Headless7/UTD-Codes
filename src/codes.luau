@@ -1,4 +1,22 @@
 return {
+["FinalReveals!"] = {
+        Rewards = {
+				Gems = 15000,
+				Items = {
+					MythicEtherealizationShard = 6,
+					SecretEtherealizationShard = 3,
+					ExclusiveEtherealizationShard = 3,
+				},
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 27,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["1KFollowersUTDXTiktok!"] = {
         Rewards = {
 				Rerolls = 100,
