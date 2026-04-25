@@ -1,4 +1,21 @@
 return {
+["TheFinalReveal!"] = {
+        Rewards = {
+				Coins = 30000,
+				RelicRerolls = 15,
+				Rerolls = 40,
+				StatRerolls = 25
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 1,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+
 ["FinalReveals!"] = {
         Rewards = {
 				Gems = 15000,
