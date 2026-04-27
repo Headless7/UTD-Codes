@@ -1,4 +1,20 @@
 return {
+["2.5Patch!"] = {
+        Rewards = {
+				Gems = 5_000,
+				RelicRerolls = 20,
+				StatRerolls = 35,
+				Locks = 15,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["ContentCreatorsCode2.5!"] = {
         Rewards = {
 				Coins = 100_000,
