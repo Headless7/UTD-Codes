@@ -20,7 +20,7 @@ return {
             sec = 0,
         })
     },
-["Peak2.5!!"] = {
+["PeakJujutsu!"] = {
         Rewards = {
 				Rerolls = 200,
         },
