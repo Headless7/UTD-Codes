@@ -1,4 +1,18 @@
 return {
+["Srry2.5Delay!"] = {
+        Rewards = {
+				Rerolls = 100,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 1,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+
 ["TheFinalReveal!"] = {
         Rewards = {
 				Coins = 30000,
