@@ -20,6 +20,19 @@ return {
             sec = 0,
         })
     },
+["InterestsIn2.5!"] = {
+        Rewards = {
+				Gems = 10000,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 2,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["PeakJujutsu!"] = {
         Rewards = {
 				Rerolls = 200,
