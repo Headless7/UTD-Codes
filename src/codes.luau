@@ -1,4 +1,55 @@
 return {
+["Update2.5!"] = {
+        Rewards = {
+				Rerolls = 30,
+				RelicRerolls = 25,
+				Gems = 5000,
+				Coins = 30_000,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 2,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+["ShadowMonarch!"] = {
+        Rewards = {
+				Rerolls = 20,
+				RelicRerolls = 5,
+				StatRerolls = 20,
+				Locks = 10,
+				Gems = 2000,
+				Coins = 20_000,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 7,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+["CursedEnergy!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Gems = 5000,
+				Coins = 100_000,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 1,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["Srry2.5Delay!"] = {
         Rewards = {
 				Rerolls = 100,
