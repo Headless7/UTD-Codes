@@ -20,6 +20,20 @@ return {
             sec = 0,
         })
     },
+"Arise30k"] = {
+        Rewards = {
+				Rerolls = 200,
+				Gems = 15000,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 4,
+            day = 29,
+            min = 0,
+            hour = 22,
+            sec = 0,
+        })
+    },
 ["InterestsIn2.5!"] = {
         Rewards = {
 				Gems = 10000,
@@ -27,7 +41,7 @@ return {
         Expiration = os.time({
             year = 2026,
             month = 5,
-            day = 2,
+            day = 1,
             min = 0,
             hour = 20,
             sec = 0,
@@ -39,10 +53,10 @@ return {
         },
         Expiration = os.time({
             year = 2026,
-            month = 5,
-            day = 2,
+            month = 4,
+            day = 29,
             min = 0,
-            hour = 20,
+            hour = 22,
             sec = 0,
         })
     },
