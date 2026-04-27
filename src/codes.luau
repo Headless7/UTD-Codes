@@ -1,4 +1,26 @@
 return {
+["ContentCreatorsCode2.5!"] = {
+        Rewards = {
+				Coins = 100_000,
+				Rerolls = 50,
+				RelicRerolls = 20,
+				StatRerolls = 25,
+				Locks = 15,
+				Items = {
+					SecretEtherealizationShard = 1,
+				},
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["Update2.5!"] = {
         Rewards = {
 				Rerolls = 30,
