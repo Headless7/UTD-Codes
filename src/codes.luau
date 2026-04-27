@@ -20,7 +20,7 @@ return {
             sec = 0,
         })
     },
-"Arise30k"] = {
+["Arise30k"] = {
         Rewards = {
 				Rerolls = 200,
 				Gems = 15000,
