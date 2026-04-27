@@ -22,7 +22,7 @@ return {
     },
 ["Peak2.5!"] = {
         Rewards = {
-				Rerolls = 100,
+				Rerolls = 200,
         },
         Expiration = os.time({
             year = 2026,
