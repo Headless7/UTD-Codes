@@ -20,7 +20,19 @@ return {
             sec = 0,
         })
     },
-
+["Peak2.5!"] = {
+        Rewards = {
+				Rerolls = 100,
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 2,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["Update2.5!"] = {
         Rewards = {
 				Rerolls = 30,
