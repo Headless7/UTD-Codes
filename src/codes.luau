@@ -2,7 +2,7 @@ return {
 
 ["UTDXNumberOne"] = {
         Rewards = {
-				Rerolls = 200,
+				Rerolls = 150,
 				Units = {
 					["Spade:evolved"] = 1,
 				},
