@@ -1,4 +1,23 @@
 return {
+
+["UTDXNumberOne"] = {
+        Rewards = {
+				Rerolls = 200,
+				Units = {
+					["Spade:evolved"] = 1,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
+
 ["2.5Patch!"] = {
         Rewards = {
 				Gems = 5_000,
