@@ -4,6 +4,7 @@ return {
 				Rerolls = 200,
 				RelicRerolls = 20,
 				StatRerolls = 35,
+				Coins = 50_000,
         },
 		LevelRequirement = 0,
         Expiration = os.time({
