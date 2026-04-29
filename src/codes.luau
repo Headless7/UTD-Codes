@@ -1,5 +1,20 @@
 return {
-
+["BrotherlyInterests"] = {
+        Rewards = {
+				Rerolls = 200,
+				RelicRerolls = 20,
+				StatRerolls = 35,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 1,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
 ["UTDXNumberOne"] = {
         Rewards = {
 				Rerolls = 150,
