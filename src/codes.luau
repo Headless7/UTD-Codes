@@ -1,4 +1,26 @@
 return {
+["DMCIntrested!"] = {
+        Rewards = {
+				Rerolls = 200,
+
+				Items = {
+					PhantomFragment = 3,
+					BurningFragment = 3,
+					HolyFragment = 3,
+					OceanFragment = 3,
+					UniversalFragment = 1,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
 ["100MStillOnTheGrind!"] = {
         Rewards = {
 				Rerolls = 100,
