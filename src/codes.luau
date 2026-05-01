@@ -1,5 +1,5 @@
 return {
-["Update2.75!"] = {
+["MiniUpdate2.75!"] = {
         Rewards = {
 				Rerolls = 100,
 				RelicRerolls = 25,
