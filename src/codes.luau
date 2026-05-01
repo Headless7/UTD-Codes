@@ -1,4 +1,37 @@
 return {
+["Update2.75!"] = {
+        Rewards = {
+				Rerolls = 100,
+				RelicRerolls = 25,
+				StatRerolls = 35,
+				Coins = 50_000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 8,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
+["30kDMCIntrested!"] = {
+        Rewards = {
+				Rerolls = 200,
+				Coins = 30_000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 4,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
+
 ["25kInterested"] = {
         Rewards = {
 				Rerolls = 100,
@@ -8,7 +41,7 @@ return {
         Expiration = os.time({
             year = 2026,
             month = 5,
-            day = 10,
+            day = 3,
             min = 0,
             hour = 17,
             sec = 0,
@@ -31,7 +64,7 @@ return {
         Expiration = os.time({
             year = 2026,
             month = 5,
-            day = 10,
+            day = 3,
             min = 0,
             hour = 17,
             sec = 0,
