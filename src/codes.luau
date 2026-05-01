@@ -6,7 +6,7 @@ return {
 				StatRerolls = 35,
 				Coins = 50_000,
         },
-		LevelRequirement = 0,
+		LevelRequirement = 10,
         Expiration = os.time({
             year = 2026,
             month = 5,
