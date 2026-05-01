@@ -1,4 +1,20 @@
 return {
+["25kInterested"] = {
+        Rewards = {
+				Rerolls = 100,
+				Coins = 25_000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
+
 ["DMCIntrested!"] = {
         Rewards = {
 				Rerolls = 200,
