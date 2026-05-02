@@ -1,4 +1,19 @@
 return {
+["iAmApproaching"] = {
+        Rewards = {
+				Gems = 5000,
+				DevilOrb = 100
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 8,
+            min = 0,
+            hour = 17,
+            sec = 0,
+        })
+    },
 ["Update2.75!"] = {
         Rewards = {
 				Rerolls = 100,
