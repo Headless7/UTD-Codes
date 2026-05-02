@@ -1,4 +1,28 @@
 return {
+
+["DMCPatch!"] = {
+        Rewards = {
+				Rerolls = 25,
+				DevilOrb = 100,
+				Items = {
+					SkyFragment = 3,
+					PetalFragment = 6,
+					BurningFragment = 3,
+					OceanFragment = 3,
+					UniversalFragment = 2,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 18,
+            sec = 0,
+        })
+    },
+
 ["iAmApproaching"] = {
         Rewards = {
 				Gems = 5000,
