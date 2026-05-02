@@ -1,5 +1,20 @@
 return {
 
+["ContentCreatorsCode2.75!"] = {
+        Rewards = {
+				DevilOrb = 1000,
+		},
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 18,
+            sec = 0,
+        })
+    },
+
 ["DMCPatch!"] = {
         Rewards = {
 				Rerolls = 25,
