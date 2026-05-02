@@ -4,7 +4,7 @@ return {
         Rewards = {
 				DevilOrb = 1000,
 		},
-		LevelRequirement = 0,
+ 		CC_Code = true,
         Expiration = os.time({
             year = 2026,
             month = 5,
