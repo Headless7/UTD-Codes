@@ -1,5 +1,46 @@
 return {
 
+["SorryForGlobalMatchmakingDowntime!"] = {
+        Rewards = {
+				Rerolls = 200,				
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 18,
+            sec = 0,
+        })
+    },
+
+["GuildsCharityEvent!"] = {
+        Rewards = {
+				Gems = 5000,	
+				Items = {
+					SecretEtherealizationShard = 1,
+					SkyFragment = 2,
+					FrozenFragment = 2,
+					HolyFragment = 2,
+					PhantomFragment = 2,
+					PetalFragment = 2,
+					BurningFragment = 2,
+					OceanFragment = 2,
+					UniversalFragment = 2,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 18,
+            sec = 0,
+        })
+    },
+
 ["UTDXThankYouFor60KCCU"] = {
         Rewards = {
 				Rerolls = 150,
