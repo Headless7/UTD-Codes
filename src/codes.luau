@@ -1,5 +1,25 @@
 return {
 
+["30kInterestedWano"] = {
+        Rewards = {
+				Rerolls = 200,
+				RelicRerolls = 25,
+				StatRerolls = 20,
+				Units = {
+					["Ragna:evolved"] = 1,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 7,
+            min = 0,
+            hour = 21,
+            sec = 0,
+        })
+    },
+
 ["20KInterestedWano!"] = {
         Rewards = {
 				Rerolls = 250,
