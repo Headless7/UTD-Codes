@@ -1,5 +1,23 @@
 return {
 
+["20KInterestedWano!"] = {
+        Rewards = {
+				Rerolls = 250,
+				Items = {
+					SecretEtherealizationShard = 2,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 13,
+            min = 0,
+            hour = 18,
+            sec = 0,
+        })
+    },
+
 ["SorryForGlobalMatchmakingDowntime!"] = {
         Rewards = {
 				Rerolls = 200,				
