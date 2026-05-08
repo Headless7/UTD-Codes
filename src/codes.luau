@@ -1,5 +1,25 @@
 return {
 
+["40kInterestedWano!"] = {
+        Rewards = {
+				Rerolls = 200,
+				RelicRerolls = 25,
+				StatRerolls = 25,
+				Units = {
+					["Stark:evolved"] = 1,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 10,
+            min = 0,
+            hour = 21,
+            sec = 0,
+        })
+    },
+
 ["30kInterestedWano"] = {
         Rewards = {
 				Rerolls = 200,
