@@ -6,7 +6,7 @@ return {
 				RelicRerolls = 25,
 				StatRerolls = 25,
 				Units = {
-					["Stark:evolved"] = 1,
+					["Starrk:evolved"] = 1,
 				},
         },
 		LevelRequirement = 0,
