@@ -1,5 +1,23 @@
 return {
 
+["GiftFromMiniking!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Items = {
+					ExclusiveEtherealizationShard = 1,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 20,
+            min = 0,
+            hour = 21,
+            sec = 0,
+        })
+    },
+
 ["40kInterestedWano!"] = {
         Rewards = {
 				Rerolls = 200,
