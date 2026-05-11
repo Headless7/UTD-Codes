@@ -1,4 +1,19 @@
 return {
+["50kInterestedWano"] = {
+        Rewards = {
+				Rerolls = 200,
+				Gems = 10_000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 16,
+            min = 0,
+            hour = 21,
+            sec = 0,
+        })
+    },
 
 ["GiftFromMiniking_2!"] = {
         Rewards = {
