@@ -4,6 +4,7 @@ return {
 				Rerolls = 100,
 				Items = {
 					MythicEtherealizationShard = 6,
+					SecretEtherealizationShard = 2,
 				},
         },
 		LevelRequirement = 0,
