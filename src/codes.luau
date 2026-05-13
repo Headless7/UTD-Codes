@@ -1,4 +1,21 @@
 return {
+["WanoCountdownDay2!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Items = {
+					MythicEtherealizationShard = 6,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 16,
+            min = 0,
+            hour = 21,
+            sec = 0,
+        })
+    },
 ["WanoCountdownDay1"] = {
         Rewards = {
 				Rerolls = 150,
