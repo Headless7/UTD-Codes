@@ -1,4 +1,27 @@
 return {
+["WanoCountdownDay3!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Units = {
+					["Buddha"] = 1,
+				},
+				Items = {
+					BuddhaStaff = 1,
+					HolyFragment = 7,
+					PhantomFragment = 4,
+					UniversalFragment = 2,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 16,
+            min = 0,
+            hour = 21,
+            sec = 0,
+        })
+    },
 ["WanoCountdownDay2!"] = {
         Rewards = {
 				Rerolls = 100,
