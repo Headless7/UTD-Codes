@@ -1,4 +1,28 @@
 return {
+["Srry3.0Delay!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Units = {
+					["Ichigo"] = 1,
+				},
+				Items = {
+					HollowEssence = 1;
+					UniversalFragment = 3;
+					PhantomFragment = 6;	
+					BurningFragment = 6;	
+					HolyFragment = 3;
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 18,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["WanoCountdownDay4!"] = {
         Rewards = {
 				Rerolls = 100,
