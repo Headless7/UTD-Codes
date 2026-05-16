@@ -3,14 +3,7 @@ return {
         Rewards = {
 				Rerolls = 100,
 				Units = {
-					["Ichigo"] = 1,
-				},
-				Items = {
-					HollowEssence = 1;
-					UniversalFragment = 3;
-					PhantomFragment = 6;	
-					BurningFragment = 6;	
-					HolyFragment = 3;
+					["Ichigo:evolved"] = 1,
 				},
         },
 		LevelRequirement = 0,
