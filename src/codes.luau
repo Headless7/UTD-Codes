@@ -1,4 +1,30 @@
 return {
+["ContentCreator3.0!"] = {
+        Rewards = {
+				UniversalGemsSeason1 = 120_000,
+				Rerolls = 250,
+				Gems = 25_000,
+				Items = {
+					SkyFragment = 5,
+					FrozenFragment = 5,
+					HolyFragment = 5,
+					PhantomFragment = 5,
+					PetalFragment = 5,
+					BurningFragment = 5,
+					OceanFragment = 5,
+					UniversalFragment = 1,
+				},
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 30,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["Gear5!"] = {
         Rewards = {
 				Rerolls = 100,
