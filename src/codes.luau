@@ -1,4 +1,105 @@
 return {
+["UniversalDelay6!"] = {
+        Rewards = {
+				Units = {
+					["Spade:evolved"] = 1,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 19,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+["UniversalDelay5!"] = {
+        Rewards = {
+				Coins = 200_000,
+				Gems = 20_000,
+				PirateAscensionCoin = 100,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 19,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+["UniversalDelay4!"] = {
+        Rewards = {
+				Items = {
+					SkyFragment = 15,
+					FrozenFragment = 15,
+					HolyFragment = 15,
+					PhantomFragment = 15,
+					PetalFragment = 15,
+					BurningFragment = 15,
+					OceanFragment = 15,
+					UniversalFragment = 7,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 19,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+["UniversalDelay3!"] = {
+        Rewards = {
+				StatRerolls = 200,
+				Rerolls = 300,
+				RelicRerolls = 100,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 19,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+["UniversalDelay2!"] = {
+        Rewards = {
+				Items = {
+					BoundlessOrb = 1,
+				},
+        },
+		LevelRequirement = 50,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 19,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+["UniversalDelay!"] = {
+        Rewards = {
+				UniversalGemsSeason1 = 100_000,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 19,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["ContentCreator3.0!"] = {
         Rewards = {
 				UniversalGemsSeason1 = 120_000,
@@ -32,7 +133,7 @@ return {
 				Gems = 10_000,
 				Coins = 100_000,
         },
-		LevelRequirement = 30,
+		LevelRequirement = 5,
         Expiration = os.time({
             year = 2026,
             month = 5,
@@ -67,7 +168,7 @@ return {
 				RelicRerolls = 25,
 				Gems = 5000,
         },
-		LevelRequirement = 0,
+		LevelRequirement = 5,
         Expiration = os.time({
             year = 2026,
             month = 5,
