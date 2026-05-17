@@ -1,4 +1,18 @@
 return {
+["ThankYou100KWano!"] = {
+        Rewards = {
+				Rerolls = 500,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 19,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["UniversalDelay7!"] = {
         Rewards = {
 				Rerolls = 200,
