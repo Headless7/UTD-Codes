@@ -1,4 +1,21 @@
 return {
+
+["not_m1nhOnTiktok"] = {
+        Rewards = {
+				Rerolls = 50,
+				Gems = 10_000,
+				StatRerolls = 20
+        },
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 30,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["ThankYou100KWano!"] = {
         Rewards = {
 				Rerolls = 500,
