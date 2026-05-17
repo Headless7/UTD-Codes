@@ -1,4 +1,56 @@
 return {
+["Gear5!"] = {
+        Rewards = {
+				Rerolls = 100,
+				UniversalGemsSeason1 = 5000,
+				Gems = 10_000,
+				Coins = 100_000,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 24,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+["TheOnePieceIsReal!"] = {
+        Rewards = {
+				Rerolls = 50,
+				StatRerolls = 20,
+				Locks = 10,
+				RelicRerolls = 15,
+				Gems = 5000,
+				Coins = 20000,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 24,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+["3.0Part1Update!"] = {
+        Rewards = {
+				Rerolls = 50,
+				RelicRerolls = 25,
+				Gems = 5000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 24,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["Srry3.0Delay!"] = {
         Rewards = {
 				Rerolls = 100,
