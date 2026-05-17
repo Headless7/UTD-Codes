@@ -88,7 +88,7 @@ return {
         Expiration = os.time({
             year = 2026,
             month = 5,
-            day = 18,
+            day = 16,
             min = 0,
             hour = 7,
             sec = 0,
