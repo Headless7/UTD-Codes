@@ -1,4 +1,20 @@
 return {
+["UniversalDelay7!"] = {
+        Rewards = {
+				Rerolls = 200,
+				Gems = 20_000,
+				UniversalGemsSeason1 = 20_000,
+        },
+		LevelRequirement = 10,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 19,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["UniversalDelay6!"] = {
         Rewards = {
 				Units = {
