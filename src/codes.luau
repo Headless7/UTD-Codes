@@ -1,5 +1,20 @@
 return {
-
+["FixedGuilds!"] = {
+        Rewards = {
+				Rerolls = 150,
+				RelicRerolls = 50,
+				UniversalGemsSeason1 = 75_000,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 23,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["not_m1nhOnTiktok"] = {
         Rewards = {
 				Rerolls = 50,
