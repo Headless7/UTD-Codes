@@ -1,4 +1,22 @@
 return {
+["100kInterestedWanoP2!"] = {
+        Rewards = {
+				Gems = 10_000,
+				Coins = 100_000,
+				UniversalGemsSeason1 = 75_000,
+				Rerolls = 50,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 27,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+
 ["30kInterestedWanoP2!"] = {
         Rewards = {
 				Rerolls = 150,
