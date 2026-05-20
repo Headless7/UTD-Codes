@@ -1,4 +1,19 @@
 return {
+["30kInterestedWanoP2!"] = {
+        Rewards = {
+				Rerolls = 150,
+				RelicRerolls = 30,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 24,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["FixedGuilds!"] = {
         Rewards = {
 				Rerolls = 150,
