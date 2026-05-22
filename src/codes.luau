@@ -1,4 +1,18 @@
 return {
+["200kInterestedMiniWano!"] = {
+        Rewards = {
+				Rerolls = 150,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 24,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["100kInterestedWanoP2!"] = {
         Rewards = {
 				Gems = 10_000,
