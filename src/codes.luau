@@ -1,4 +1,37 @@
 return {
+["3.0Part1.5!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Gems = 5_000,
+				Coins = 50_000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 31,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
+["PirateKing!"] = {
+        Rewards = {
+				Rerolls = 100,
+				UniversalGemsSeason1 = 150_000,
+				Gems = 10_000,
+				Coins = 100_000,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 31,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["200kInterestedMiniWano!"] = {
         Rewards = {
 				Rerolls = 150,
