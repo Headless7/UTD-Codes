@@ -1,4 +1,19 @@
 return {
+["200kInterestedUtopia"] = {
+        Rewards = {
+				Rerolls = 150,
+				UniversalGemsSeason1 = 100_000,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 31,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["ContentCreatorPart1.5!"] = {
         Rewards = {
 				UniversalGemsSeason1 = 120_000,
