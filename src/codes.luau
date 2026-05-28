@@ -1,4 +1,29 @@
 return {
+["250kInterestedUtopia!"] = {
+        Rewards = {
+				Rerolls = 150,
+				UniversalGemsSeason1 = 50_000,
+				Units = {
+					["Sabo"] = 1,
+				},
+				Items = {
+					SpadeHat = 1;
+					SaboPipe = 1,
+					FrozenFragment = 8,
+					BurningFragment = 10,
+					UniversalFragment = 3,	
+				},
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 5,
+            day = 31,
+            min = 0,
+            hour = 7,
+            sec = 0,
+        })
+    },
 ["200kInterestedUtopia"] = {
         Rewards = {
 				Rerolls = 150,
