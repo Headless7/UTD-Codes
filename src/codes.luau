@@ -1,4 +1,28 @@
 return {
+["300KInterestedUtopia!"] = {
+        Rewards = {
+				Rerolls = 300,
+				UniversalGemsSeason1 = 300_000,
+				Coins = 300_000,
+				Units = {
+					["Madara"] = 1,
+				},
+				Items = {
+					SuperLuckPotion = 3,
+					UltraLuckPotion = 3,
+					KuramaFightKey4 = 30,
+				},
+        },
+		LevelRequirement = 50,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 4,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["275kInterestedUtopia!"] = {
         Rewards = {
 				Rerolls = 300,
