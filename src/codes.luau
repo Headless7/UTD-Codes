@@ -13,7 +13,7 @@ return {
 					KuramaFightKey4 = 30,
 				},
         },
-		LevelRequirement = 50,
+		LevelRequirement = 15,
         Expiration = os.time({
             year = 2026,
             month = 6,
