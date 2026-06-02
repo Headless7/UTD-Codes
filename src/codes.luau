@@ -32,7 +32,7 @@ return {
 				},
 				
         },
-		LevelRequirement = 0,
+		LevelRequirement = 10,
         Expiration = os.time({
             year = 2026,
             month = 6,
@@ -147,7 +147,7 @@ return {
 				Locks = 20,
 				Gems = 5000,
         },
-		LevelRequirement = 15,
+		LevelRequirement = 0,
         Expiration = os.time({
             year = 2026,
             month = 6,
