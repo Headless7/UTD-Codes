@@ -1,4 +1,74 @@
 return {
+["NewBattlePass!!"] = {
+        Rewards = {
+				Rerolls = 25,
+				Coins = 10_000,
+				RelicRerolls = 10,
+				Gems = 5000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 7,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+["MercilessGodIsHere!"] = {
+        Rewards = {
+				Rerolls = 100,
+				UniversalGemsSeason1P2 = 35_000,
+				Gems = 30_000,
+				Coins = 100_000,
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 7,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+["FusionUpdate!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Coins = 30_000,
+				RelicRerolls = 15,
+				StatRerolls = 25,
+				Locks = 20,
+				Gems = 5000,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 7,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+["3.0PartTwoUpdate!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Coins = 30_000,
+				RelicRerolls = 25,
+				Gems = 5000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 7,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["300KInterestedUtopia!"] = {
         Rewards = {
 				Rerolls = 300,
