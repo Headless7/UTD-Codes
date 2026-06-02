@@ -174,6 +174,34 @@ return {
             sec = 0,
         })
     },
+["ContentCreador_3.0pt2!"] = {
+        Rewards = {
+				UniversalGemsSeason1P2 = 200_000,
+				Rerolls = 150,
+				Gems = 35_000,
+				StatRerolls = 100,
+				Locks = 50,
+				Items = {
+					SkyFragment = 5,
+					FrozenFragment = 5,
+					HolyFragment = 5,
+					PhantomFragment = 5,
+					PetalFragment = 5,
+					BurningFragment = 5,
+					OceanFragment = 5,
+					UniversalFragment = 1,
+				},
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 14,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["300KInterestedUtopia!"] = {
         Rewards = {
 				Rerolls = 300,
