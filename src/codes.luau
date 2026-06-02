@@ -1,4 +1,109 @@
 return {
+["UniverseFestDelay1!"] = {
+        Rewards = {
+				Rerolls = 150,
+				Coins = 100_000,
+				UniversalGemsSeason1P2 = 50_000,
+				Gems = 10_000,
+				Items = {
+					["Trunks Sword"] = 2,
+				},
+				
+        },
+		LevelRequirement = 5,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 5,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+["UniverseFestDelay2!"] = {
+        Rewards = {
+				Rerolls = 50,
+				UniversalGemsSeason1P2 = 50_000,
+				Locks = 25,
+				Items = {
+					SkyFragment = 10,
+					HolyFragment = 10,
+					PetalFragment = 10,
+				},
+				
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 5,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+["UniverseFestDelay3!"] = {
+        Rewards = {
+				UniversalGemsSeason1P2 = 100_000,
+				RelicRerolls = 30,
+				Items = {
+					HolyFragment = 10,
+					PhantomFragment = 10,
+					OceanFragment = 10,
+				},
+				
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 5,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+["UniverseFestDelay4!"] = {
+        Rewards = {
+				Rerolls = 200,
+				Zeni = 2_000,
+				Items = {
+					FrozenFragment = 10,
+					BurningFragment = 10,
+				},
+				
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 5,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+["UniverseFestDelay5!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Items = {
+					UniversalFragment = 5,	
+					FrozenFragment = 10,
+					SenzuBean = 50,
+					SaiyanFragment = 30,
+				},
+				
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 5,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["NewBattlePass!!"] = {
         Rewards = {
 				Rerolls = 25,
