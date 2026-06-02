@@ -174,6 +174,22 @@ return {
             sec = 0,
         })
     },
+["subto_s3resutiaru!"] = {
+        Rewards = {
+				UniversalGemsSeason1P2 = 50_000,
+				Rerolls = 60,
+				Gems = 5_000,
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 14,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
 ["ContentCreador_3.0pt2!"] = {
         Rewards = {
 				UniversalGemsSeason1P2 = 200_000,
