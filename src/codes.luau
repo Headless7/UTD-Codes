@@ -1,4 +1,19 @@
 return {
+["200kInterestedBeast!"] = {
+        Rewards = {
+				Rerolls = 200,
+				UniversalGemsSeason1P2 = 100_000,				
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 7,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["UniverseFestDelay1!"] = {
         Rewards = {
 				Rerolls = 150,
