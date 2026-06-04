@@ -1,4 +1,19 @@
 return {
+
+["SmallUtopiaPatch!"] = {
+        Rewards = {
+				Rerolls = 100,		
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 7,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["200kInterestedBeast!"] = {
         Rewards = {
 				Rerolls = 200,
