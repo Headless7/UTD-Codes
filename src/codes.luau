@@ -210,7 +210,6 @@ return {
 				Rerolls = 60,
 				Gems = 5_000,
         },
-        CC_Code = true,
         Expiration = os.time({
             year = 2026,
             month = 7,
