@@ -1,5 +1,30 @@
 return {
-
+["275kInterestedBeast!"] = {
+        Rewards = {
+				Rerolls = 200,
+				UniversalGemsSeason1P2 = 100_000,
+				UniversalGemsSeason1 = 100_000,
+				Gems = 10000,
+				Units = {
+					["Higuruma"] = 1,
+				},
+				Items = {
+					HigurumaHammer = 1,
+					SkyFragment = 8,
+					HolyFragment = 10,
+					UniversalFragment = 3,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 9,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["SmallUtopiaPatch!"] = {
         Rewards = {
 				Rerolls = 100,		
