@@ -1,5 +1,19 @@
 return {
-
+["DBSUpdPatch!"] = {
+        Rewards = {
+				Rerolls = 100,
+				UniversalGemsSeason1 = 100_000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 10,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["UniversalInfo3.0Part2!"] = {
         Rewards = {
 				Rerolls = 200,
