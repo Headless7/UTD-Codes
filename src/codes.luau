@@ -1,4 +1,44 @@
 return {
+
+["UniversalInfo3.0Part2!"] = {
+        Rewards = {
+				Rerolls = 150,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 10,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+
+["300kInterestedBeast"] = {
+        Rewards = {
+				Rerolls = 200,
+				UniversalGemsSeason1P2 = 100_000,
+				UniversalGemsSeason1 = 100_000,
+				Gems = 10000,
+				Locks = 25,
+				StatRerolls = 50,
+				RelicRerolls = 25,
+				Items = {
+					MAXLEVELFood = 1
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 10,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
+
 ["275kInterestedBeast!"] = {
         Rewards = {
 				Rerolls = 200,
