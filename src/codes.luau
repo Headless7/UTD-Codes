@@ -2,7 +2,7 @@ return {
 
 ["UniversalInfo3.0Part2!"] = {
         Rewards = {
-				Rerolls = 150,
+				Rerolls = 200,
         },
 		LevelRequirement = 0,
         Expiration = os.time({
