@@ -3,7 +3,7 @@ return {
         Rewards = {
 				Rerolls = 150,
 				UniversalGemsSeason1P2 = 200_000,
-				UniversalGemsSeason1 = 50_000,
+				UniversalGemsSeason1 = 100_000,
 				
         },
 		LevelRequirement = 20,
