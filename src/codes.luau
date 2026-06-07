@@ -1,7 +1,7 @@
 return {
 ["StayTunedDBS!"] = {
         Rewards = {
-				Rerolls = 100,
+				Rerolls = 200,
 				UniversalGemsSeason1P2 = 100_000,
 				UniversalGemsSeason1 = 50_000,
 				
