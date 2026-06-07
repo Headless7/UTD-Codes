@@ -1,4 +1,21 @@
 return {
+["StayTunedDBS!"] = {
+        Rewards = {
+				Rerolls = 100,
+				UniversalGemsSeason1P2 = 100_000,
+				UniversalGemsSeason1 = 50_000,
+				
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 11,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["DBSUpdPatch!"] = {
         Rewards = {
 				Rerolls = 100,
