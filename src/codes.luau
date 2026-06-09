@@ -5,7 +5,7 @@ return {
 				UniversalGemsSeason1P2 = 100_000,
 				UniversalGemsSeason1 = 70_000,
 				Units = {
-					["Stark:shiny"] = 1,
+					["Starrk:shiny"] = 1,
 				},
 				
         },
