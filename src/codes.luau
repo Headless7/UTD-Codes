@@ -1,9 +1,9 @@
 return {
-["ShinyCode!"] = {
+["TheShinyCode!"] = {
         Rewards = {
-				Rerolls = 100,
-				UniversalGemsSeason1P2 = 100_000,
-				UniversalGemsSeason1 = 70_000,
+				Rerolls = 150,
+				UniversalGemsSeason1P2 = 150_000,
+				UniversalGemsSeason1 = 80_000,
 				Units = {
 					["Starrk:shiny"] = 1,
 				},
