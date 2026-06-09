@@ -1,7 +1,7 @@
 return {
 ["TheShinyCode!"] = {
         Rewards = {
-				Rerolls = 150,
+				Rerolls = 200,
 				UniversalGemsSeason1P2 = 150_000,
 				UniversalGemsSeason1 = 100_000,
 				Units = {
