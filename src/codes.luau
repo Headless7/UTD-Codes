@@ -3,11 +3,13 @@ return {
         Rewards = {
 				Rerolls = 150,
 				UniversalGemsSeason1P2 = 150_000,
-				UniversalGemsSeason1 = 80_000,
+				UniversalGemsSeason1 = 100_000,
 				Units = {
 					["Starrk:shiny"] = 1,
 				},
-				
+				Locks = 25,
+				StatRerolls = 50,
+				RelicRerolls = 25,
         },
 		LevelRequirement = 30,
         Expiration = os.time({
