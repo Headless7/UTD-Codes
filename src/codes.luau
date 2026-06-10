@@ -1,4 +1,27 @@
 return {
+
+["DBSLagFixes!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Gems = 25_000,
+				UniversalGemsSeason1P2 = 50_000,
+				UniversalGemsSeason1 = 50_000,
+				Units = {
+					["Nelliel:shiny:evolved"] = 1,
+				},
+		},
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 11,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+
+
 ["TheShinyCode!"] = {
         Rewards = {
 				Rerolls = 200,
