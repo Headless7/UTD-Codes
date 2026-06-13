@@ -1,5 +1,43 @@
 return {
 
+["3.0Part2.5Update!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Gems = 5_000,
+				RelicRerolls = 25,
+				Coins = 30_000,
+		},
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 20,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+
+["TheBeast!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Gems = 10_000,
+				RelicRerolls = 25,
+				Locks = 20,
+				StatRerolls = 20,
+				Coins = 100_000,
+		},
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 20,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+
 ["DBSLagFixes!"] = {
         Rewards = {
 				Rerolls = 100,
