@@ -58,6 +58,24 @@ return {
         })
     },
 
+["CC_UniversalFestFinale"] = {
+        Rewards = {
+				Items = {
+					BoundlessOrb = 1,
+					FlamesAndWavesCapsule = 50,
+				},
+        },
+        CC_Code = true,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 22,
+            min = 0,
+            hour = 16,
+            sec = 0,
+        })
+    },
+
 ["DBSLagFixes!"] = {
         Rewards = {
 				Rerolls = 100,
