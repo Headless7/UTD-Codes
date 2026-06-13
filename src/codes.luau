@@ -38,6 +38,25 @@ return {
         })
     },
 
+["BeastDelay!"] = {
+        Rewards = {
+				Rerolls = 150,
+				UniversalGemsSeason1P2 = 100_000,
+				UniversalGemsSeason1 = 100_000,
+				Locks = 50,
+				StatRerolls = 20,
+		},
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 20,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+
 ["DBSLagFixes!"] = {
         Rewards = {
 				Rerolls = 100,
