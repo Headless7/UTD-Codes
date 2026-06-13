@@ -41,10 +41,11 @@ return {
 ["BeastDelay!"] = {
         Rewards = {
 				Rerolls = 150,
-				UniversalGemsSeason1P2 = 100_000,
+				UniversalGemsSeason1P2 = 50_000,
 				UniversalGemsSeason1 = 100_000,
 				Locks = 50,
 				StatRerolls = 20,
+				Coins = 100_000,
 		},
 		LevelRequirement = 20,
         Expiration = os.time({
