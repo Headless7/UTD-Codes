@@ -1,9 +1,12 @@
 return {
 
-["MaximumChamber1x"] = {
+["ExclusiveRelics!"] = {
         Rewards = {
 				Rerolls = 100,
 				RelicRerolls = 30,
+				Items = {
+					MaximumChamber = 1,
+				},
 		},
 		LevelRequirement = 15,
         Expiration = os.time({
