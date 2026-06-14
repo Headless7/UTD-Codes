@@ -1,5 +1,25 @@
 return {
 
+["DropRateFixes!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Items = {
+					GohanSword = 2,
+					GohanGlasses = 1,
+					FlamesAndWavesCapsule = 15,
+				},
+		},
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 20,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
+
 ["3.0Part2.5Update!"] = {
         Rewards = {
 				Rerolls = 50,
