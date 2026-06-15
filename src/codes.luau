@@ -3,9 +3,6 @@ return {
         Rewards = {
 				Rerolls = 200,
 				Gems = 20_000,
-				Items = {
-					SuperLuckPotion = 3,
-				},
         },
 		LevelRequirement = 15,
         Expiration = os.time({
