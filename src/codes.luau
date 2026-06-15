@@ -1,5 +1,18 @@
 return {
-
+["ArrancarSupremacy!"] = {
+        Rewards = {
+				Rerolls = 100,
+		},
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 21,
+            min = 0,
+            hour = 20,
+            sec = 0,
+        })
+    },
 ["ExclusiveRelics!"] = {
         Rewards = {
 				Rerolls = 100,
