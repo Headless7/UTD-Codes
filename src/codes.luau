@@ -2,6 +2,7 @@ return {
 ["ArrancarSupremacy!"] = {
         Rewards = {
 				Rerolls = 100,
+				UniversalGemsSeason1P2 = 100_000,
 		},
 		LevelRequirement = 15,
         Expiration = os.time({
