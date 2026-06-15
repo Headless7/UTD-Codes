@@ -3,6 +3,7 @@ return {
         Rewards = {
 				Rerolls = 200,
 				Gems = 20_000,
+				UniversalGemsSeason1P2 = 50_000,
         },
 		LevelRequirement = 15,
         Expiration = os.time({
