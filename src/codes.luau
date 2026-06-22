@@ -1,10 +1,20 @@
 return {
-["WeAimForTheTop!"] = {
+["UniversalDelayDefense!"] = {
         Rewards = {
 				Rerolls = 500,
 				Gems = 20_000,
 				UniversalGemsSeason1P2 = 75_000,
 				UniversalGemsSeason1 = 75_000,
+				Units = {
+					["Dante"] = 1,
+				},
+				Items = {
+					DanteSword = 1,
+					BurningFragment = 10,
+					PetalFragment = 8,
+					UniversalFragment = 3,
+				},
+				Coins = 50_000,
         },
 		LevelRequirement = 25,
         Expiration = os.time({
