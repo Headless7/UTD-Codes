@@ -2,9 +2,9 @@ return {
 ["UniversalDelayDefense!"] = {
         Rewards = {
 				Rerolls = 500,
-				Gems = 20_000,
-				UniversalGemsSeason1P2 = 75_000,
-				UniversalGemsSeason1 = 75_000,
+				Gems = 25_000,
+				UniversalGemsSeason1P2 = 100_000,
+				UniversalGemsSeason1 = 100_000,
 				Units = {
 					["Dante"] = 1,
 				},
