@@ -15,7 +15,7 @@ return {
             hour = 10,
             sec = 0,
         })
-    },
+    }, 
 ["200KInterestedSouls!"] = {
         Rewards = {
 				Rerolls = 200,
