@@ -1,4 +1,21 @@
 return {
+["WeAimForTheTop!"] = {
+        Rewards = {
+				Rerolls = 500,
+				Gems = 20_000,
+				UniversalGemsSeason1P2 = 75_000,
+				UniversalGemsSeason1 = 75_000,
+        },
+		LevelRequirement = 25,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 29,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    },
 ["200KInterestedSouls!"] = {
         Rewards = {
 				Rerolls = 200,
