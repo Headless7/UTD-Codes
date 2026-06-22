@@ -13,6 +13,7 @@ return {
 					BurningFragment = 10,
 					PetalFragment = 8,
 					UniversalFragment = 3,
+					FlamesAndWavesCapsule = 50,
 				},
 				Coins = 50_000,
         },
