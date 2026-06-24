@@ -1,4 +1,28 @@
 return {
+["UniversalTowerDefenseZ!"] = {
+        Rewards = {
+				Rerolls = 250,
+				UniversalGemsSeason1P2 = 100_000,
+				Units = {
+					["Vergil"] = 1,
+				},
+				Items = {
+					VergilSword = 1,
+					OceanFragment = 10,
+					SkyFragment = 8,
+					UniversalFragment = 3,
+				},
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 6,
+            day = 30,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
 ["UniversalDelayDefense!"] = {
         Rewards = {
 				Rerolls = 500,
