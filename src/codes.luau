@@ -1,4 +1,22 @@
 return {
+
+["UTDXRulerIncident!"] = {
+        Rewards = {
+				Items = {
+					RulerTicket = 2,
+				},
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 1,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
 ["UniversalTowerDefenseZ!"] = {
         Rewards = {
 				Rerolls = 250,
