@@ -1,5 +1,30 @@
 return {
 
+["UTDPhase3!"] = {
+        Rewards = {
+				UniversalGemsSeason1 = 100_000,
+				Rerolls = 150,
+				Units = {
+					["Grimmjow"] = 1,
+				},
+				Items = {
+					["Hollow Skull Jaw"] = 1,
+					UniversalFragment = 2,
+					PetalFragment = 8,	
+					OceanFragment = 6,	
+				},
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 8,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
 ["UTDXRulerIncident!"] = {
         Rewards = {
 				Items = {
