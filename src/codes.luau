@@ -4,6 +4,7 @@ return {
         Rewards = {
 				Items = {
 					["Ruler__Ticket"] = 1,
+					BoundlessOrb = 1,
 				}
         },
 		LevelRequirement = 30,
