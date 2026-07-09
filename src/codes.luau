@@ -1,5 +1,22 @@
 return {
 
+["SrryForWhoopsie!"] = {
+        Rewards = {
+				Items = {
+					["Ruler__Ticket"] = 1,
+				}
+        },
+		LevelRequirement = 30,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 12,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
 ["ReapersVsHollowDestroyers"] = {
         Rewards = {
 				Gems = 10_000,
