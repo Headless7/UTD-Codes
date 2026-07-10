@@ -4,7 +4,8 @@ return {
 				Relics = {
 					["KenpachiSword"] = {
 						Type = "Accessory",
-						Rarirty = "Exclusive"
+						Rarirty = "Exclusive",
+						Amount = 1,
 					},
 				}
         },
