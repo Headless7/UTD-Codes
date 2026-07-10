@@ -9,7 +9,7 @@ return {
 					},
 				}
         },
-		LevelRequirement = 20,
+		LevelRequirement = 5,
         Expiration = os.time({
             year = 2126,
             month = 7,
