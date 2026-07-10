@@ -1,7 +1,6 @@
 return {
 ["WeLoveUTDZ2!"] = {
         Rewards = {
-				Rerolls = 1500,
 				Relics = {
 					["KenpachiSword"] = {
 						Type = "Accessory",
