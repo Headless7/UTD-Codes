@@ -11,7 +11,7 @@ return {
         },
 		LevelRequirement = 20,
         Expiration = os.time({
-            year = 2026,
+            year = 2126,
             month = 7,
             day = 13,
             min = 0,
