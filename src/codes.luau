@@ -1,4 +1,25 @@
 return {
+["WeLoveUTDZ2!"] = {
+        Rewards = {
+				Rerolls = 1500,
+				Relics = {
+					["KenpachiSword"] = {
+						Type = "Accessory",
+						Rarirty = "Exclusive"
+					},
+				}
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 13,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
 ["WeLoveUTDZ!"] = {
         Rewards = {
 				Items = {
