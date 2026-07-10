@@ -5,16 +5,14 @@ return {
 					["MythicEtherealizationShard"] = 12,
 
 					["MageStaff"] = 1,
-					["SealedEyepatch"] = 1,
 
 					["PetalFragment"] = 6,
-					["PhantomFragment"] = 6,
-					["HolyFragment"] = 5,
-					["UniversalFragment"] = 4,					
+					["PhantomFragment"] = 4,
+					["UniversalFragment"] = 2,					
 				},
 				Units = {
 					["Fern"] = 1,
-					["Kenpachi"] = 1,
+					["Kenpachi:evolved"] = 1,
 				},
         },
 		LevelRequirement = 5,
