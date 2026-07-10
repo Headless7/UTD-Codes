@@ -1,4 +1,50 @@
 return {
+["WeLoveUTDZ!"] = {
+        Rewards = {
+				Items = {
+					["MythicEtherealizationShard"] = 12,
+
+					["MageStaff"] = 1,
+					["SealedEyepatch"] = 1,
+
+					["PetalFragment"] = 6,
+					["PhantomFragment"] = 6,
+					["HolyFragment"] = 5,
+					["UniversalFragment"] = 5,					
+				},
+				Units = {
+					["Fern"] = 1,
+					["Kenpachi"] = 1,
+				},
+        },
+		LevelRequirement = 5,
+        Expiration = os.time({
+            year = 2126,
+            month = 7,
+            day = 12,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
+["UTDZApologyForBugs!"] = {
+        Rewards = {
+				Rerolls = 1500,
+				Items = {
+					["BoundlessOrb"] = 1,
+				}
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 13,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
 
 ["SrryForWhoopsie!"] = {
         Rewards = {
