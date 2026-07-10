@@ -10,7 +10,7 @@ return {
 					["PetalFragment"] = 6,
 					["PhantomFragment"] = 6,
 					["HolyFragment"] = 5,
-					["UniversalFragment"] = 5,					
+					["UniversalFragment"] = 4,					
 				},
 				Units = {
 					["Fern"] = 1,
