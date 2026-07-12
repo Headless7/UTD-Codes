@@ -9,8 +9,8 @@ return {
 					["YoruichiCat"] = 1,
 
 					["SkyFragment"] = 10,
-					["UniversalFragment"] = 6,					
-					["FrozenFragment"] = 4,
+					["FrozenFragment"] = 6,
+					["UniversalFragment"] = 4,					
 				},
 				Units = {
 					["Yoruichi"] = 1,
