@@ -1,5 +1,32 @@
 return {
 
+["WeLoveYoruichi!"] = {
+        Rewards = {
+				Items = {
+					["SummerSkinCrate"] = 5,
+
+					["MythicEtherealizationShard"] = 6,
+					["YoruichiCat"] = 1,
+
+					["SkyFragment"] = 10,
+					["UniversalFragment"] = 6,					
+					["FrozenFragment"] = 4,
+				},
+				Units = {
+					["Yoruichi"] = 1,
+				},
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 16,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
 ["WeLoveUTDZ!"] = {
         Rewards = {
 				Items = {
