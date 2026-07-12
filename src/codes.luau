@@ -1,5 +1,20 @@
 return {
 
+["WeLoveYoruichi2!"] = {
+        Rewards = {
+				Rerolls = 250,
+        },
+		LevelRequirement = 15,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 16,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
 ["WeLoveYoruichi!"] = {
         Rewards = {
 				Items = {
