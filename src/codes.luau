@@ -1,5 +1,57 @@
 return {
 
+["Football11!"] = {
+        Rewards = {
+				Rerolls = 100,
+				Gems = 20_000,
+				Coins = 100_000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 31,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
+["UniversalFootball!"] = {
+        Rewards = {
+				Rerolls = 25,
+				UniversalGemsSeason1P2 = 100_000,
+				RelicRerolls = 25,
+				Locks = 25,
+				StatRerolls = 25,
+        },
+		LevelRequirement = 20,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 31,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
+["NewBlitzPass!"] = {
+        Rewards = {
+				Rerolls = 50,
+				Gems = 5_000,
+        },
+		LevelRequirement = 0,
+        Expiration = os.time({
+            year = 2026,
+            month = 7,
+            day = 31,
+            min = 0,
+            hour = 10,
+            sec = 0,
+        })
+    }, 
+
 ["WeLoveYoruichi2!"] = {
         Rewards = {
 				Rerolls = 250,
